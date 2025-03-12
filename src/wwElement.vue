@@ -9,7 +9,7 @@ const visible = computed(() => {
 	return wwLib && wwLib.env && wwLib.env === "development";
 });
 
-console.log(wwLib.env);
+console.log(wwLib);
 </script>
 
 <style>
