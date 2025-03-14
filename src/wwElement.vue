@@ -8,8 +8,6 @@ import { computed } from "vue";
 const visible = computed(() => {
 	return wwLib && wwLib.env && wwLib.env === "development";
 });
-
-console.log(wwLib);
 </script>
 
 <style>
@@ -18,6 +16,7 @@ console.log(wwLib);
 	--theme-green1: #bff8d4;
 	--theme-green2: #47d6b6;
 	--theme-green3: #17b3c1;
+	--theme-placeholder-color: #c5c5c5;
 }
 </style>
 
